@@ -1,9 +1,9 @@
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
 WORKDIR /app
-EXPOSE 5160
+EXPOSE 8080
 EXPOSE 5100
 
-ENV ASPNETCORE_URLS=http://+:5160
+ENV ASPNETCORE_URLS=http://+:8080;http://+:5100
 
 USER app
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:9.0 AS build
