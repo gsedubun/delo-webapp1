@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin/Release/net9.0/publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/fdb3347c-0b42-4c9d-a264-19ea36a4124c/resourceGroups/delo_rg1/providers/Microsoft.Web/sites/delo-webapp1"
+}
